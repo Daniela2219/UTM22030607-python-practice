@@ -1,16 +1,16 @@
 import math
-
+#This list show a group of numbers
 my_list = [1, 2, 3, 4, 5]
 my_list[4] = input("Enter the value to be stored in the list: ")
 for item in my_list:
     print(item)
-
+#this tuple is 7 items and the while is used to print it
 nums = (1, 2, 3, 4, 5, 6, 7)
 i = 0
 while i < len(nums):
     print(nums[i])
     i = i + 1
-
+#diccionario usado la calle , ciudad
 address = {
     "state": "Aguascalientes",
     "municipality": "Jesús María",
@@ -30,7 +30,7 @@ print("Updated address:")
 print("State:", address["state"])
 print("Municipality:", address["municipality"])
 print("Street:", address["street"])
-
+#function named operation 
 def operation(operating, frstnum, secnum):
     operators = {
         "+": frstnum + secnum,
